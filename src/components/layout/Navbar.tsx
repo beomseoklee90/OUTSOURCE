@@ -1,0 +1,1 @@
+export default function Navbar() { return <section className='p-10 border-b border-zinc-800'>[Navbar Area]</section>; }

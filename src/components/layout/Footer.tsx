@@ -1,0 +1,1 @@
+export default function Footer() { return <section className='p-10 border-b border-zinc-800'>[Footer Area]</section>; }
