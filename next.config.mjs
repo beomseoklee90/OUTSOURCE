@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // 1. 레포지토리 이름이 'outsource'이므로 정확히 입력
-  basePath: "/outsource",
-
-  images: {
-    unoptimized: true,
-  },
+  images: { unoptimized: true },
+  // basePath, assetPrefix 다 지우세요!
 };
-
 export default nextConfig;
