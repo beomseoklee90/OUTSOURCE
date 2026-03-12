@@ -11,7 +11,7 @@ export default function HeroDJ() {
       {/* 1. 이미지 영역 */}
       <div className="relative w-full">
         <img
-          src="images/dj-main.jpg"
+          src="https://imgur.com/a/4X843DM"
           alt="DJ Main"
           className="w-full h-auto block"
         />
