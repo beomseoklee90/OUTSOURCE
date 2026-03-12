@@ -1,7 +1,13 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // 레포지토리 이름을 '/' 뒤에 넣어주세요. (예: '/my-portfolio')
-  // 만약 유저 메인 페이지(아이디.github.io)라면 필요 없습니다.
-  basePath: "/OUTSOURCE",
-  images: { unoptimized: true },
+  // 레포지토리 이름을 경로에 추가합니다.
+  basePath: "/outsource",
+  // CSS, JS, 이미지 등 자산 파일들을 찾을 경로도 지정합니다.
+  assetPrefix: "/outsource/",
+  images: {
+    unoptimized: true,
+  },
 };
+
+export default nextConfig;
