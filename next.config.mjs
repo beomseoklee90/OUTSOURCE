@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // 레포지토리 이름을 경로에 추가합니다.
+  // 주소 뒤에 붙는 /outsource를 정확히 인식하게 합니다.
   basePath: "/outsource",
-  // CSS, JS, 이미지 등 자산 파일들을 찾을 경로도 지정합니다.
-  assetPrefix: "/outsource/",
+  // CSS, JS 파일들을 가져올 때 앞에 /outsource를 붙여서 가져오게 합니다.
+  assetPrefix: "/outsource",
   images: {
     unoptimized: true,
   },
