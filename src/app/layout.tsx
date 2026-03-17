@@ -4,6 +4,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "DJ ICE BREAKING",
   description: "Music & Tech Portfolio",
+  verification: {
+    google:
+      "google-site-verification=F18MFiZCi_LQ4IGQgqVNWXC7ytse5ie3ysEQ7vk4254",
+  },
 };
 
 export default function RootLayout({
