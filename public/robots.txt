@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://selfintroduction.djicebreaker.site/sitemap.xml
+Sitemap: https://selfintroduction.djicebreaker.org/sitemap.xml
