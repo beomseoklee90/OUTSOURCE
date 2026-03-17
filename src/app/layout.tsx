@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "DJ Icebreaking Portfolio",
     images: [
       {
-        url: "/images/dj-main.jpg", // 카톡 공유 시 뜰 메인 이미지 (1200x630 권장)
+        url: "images/dj-main.jpg", // 카톡 공유 시 뜰 메인 이미지 (1200x630 권장)
         width: 1200,
         height: 630,
         alt: "DJ Icebreaking 공연 이미지",
