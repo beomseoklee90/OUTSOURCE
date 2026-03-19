@@ -11,7 +11,7 @@ export default function HeroDJ() {
       {/* 1. 이미지 영역 */}
       <div className="relative w-full">
         <img
-          src="/images/dj-main.jpg"
+          src="https://dj-ice-breaking-images.s3.us-east-1.amazonaws.com/dj-main.jpg"
           alt="DJ Main"
           className="w-full h-auto block"
         />
