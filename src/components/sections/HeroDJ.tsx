@@ -11,7 +11,7 @@ export default function HeroDJ() {
       {/* 1. 이미지 영역 */}
       <div className="relative w-full">
         <img
-          src="https://cdn.discordapp.com/attachments/997898812817408110/1481669108591362098/dj-main.jpg?ex=69b42763&is=69b2d5e3&hm=6e588acdce6a02c8c3a5d2a7b6ccabbe6fdbf503e9fa75150d87523c38d6f556&"
+          src="./images/dj-main.jpg"
           alt="DJ Main"
           className="w-full h-auto block"
         />
